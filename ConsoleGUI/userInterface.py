@@ -19,7 +19,7 @@ class Handler:
         Gtk.main_quit()
 
     def onButtonPressed(self, button):
-        os.system("vba-m -f " + '"roms/' + button.get_name() + '.gba"')
+        os.system("./vba-m -f " + '"roms/' + button.get_name() + '.gba"')
 
     def change_size(self, scroll):
         screen = get_monitors()[0]
@@ -29,7 +29,7 @@ class Handler:
 class newButton(Gtk.Button):
 
     def onNewButtonPressed(self,button):
-        os.system("vba-m -f " + '"newRoms/' + button.get_name() + '.gba"')
+        os.system("./vba-m -f " + '"newRoms/' + button.get_name() + '.gba"')
 
     def createNewButton(self,buttonName):
 

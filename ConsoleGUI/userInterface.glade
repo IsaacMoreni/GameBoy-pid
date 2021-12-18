@@ -22,35 +22,35 @@
     <property name="can_focus">False</property>
     <property name="pixbuf">resizedImages/PokemonUltraVioletResized.png</property>
   </object>
-  <object class="GtkImage" id="SherkSuperSlam">
+  <object class="GtkImage" id="ShrekSuperSlam">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="pixbuf">resizedImages/SherkSuperSlamResized.png</property>
   </object>
-  <object class="GtkImage" id="SherkSwampKartSpeedway">
+  <object class="GtkImage" id="ShrekSwampKartSpeedway">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="pixbuf">resizedImages/SherkSwampKartSpeedwayResized.png</property>
   </object>
-  <object class="GtkImage" id="SherkTheThird">
+  <object class="GtkImage" id="ShrekTheThird">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="pixbuf">resizedImages/SherkTheThirdResized.png</property>
   </object>
-  <object class="GtkImage" id="Sherk2">
+  <object class="GtkImage" id="Shrek2">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">resizedImages/Sherk2Resized.png</property>
+    <property name="pixbuf">resizedImages/Shrek2Resized.png</property>
   </object>
-  <object class="GtkImage" id="SherkHassleAtTheCastle">
+  <object class="GtkImage" id="ShrekHassleAtTheCastle">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">resizedImages/SherkHassleAtTheCastleResized.png</property>
+    <property name="pixbuf">resizedImages/ShrekHassleAtTheCastleResized.png</property>
   </object>
-  <object class="GtkImage" id="SherkReekinHavoc">
+  <object class="GtkImage" id="ShrekReekinHavoc">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">resizedImages/SherkReekingHavocResized.png</property>
+    <property name="pixbuf">resizedImages/ShrekReekinHavocResized.png</property>
   </object>
   <object class="GtkImage" id="SimpsonsRoadRage">
     <property name="visible">True</property>
@@ -200,12 +200,12 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkButton" id="SherkReekinHavocButton">
+                      <object class="GtkButton" id="ShrekReekinHavocButton">
                         <property name="name">SherkReekinHavoc</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="image">SherkReekinHavoc</property>
+                        <property name="image">ShrekReekinHavoc</property>
                         <property name="image_position">bottom</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="onButtonPressed" swapped="no"/>
@@ -216,12 +216,12 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkButton" id="SherkHassleAtTheCastleButton">
-                        <property name="name">SherkHassleAtTheCastle</property>
+                      <object class="GtkButton" id="ShrekHassleAtTheCastleButton">
+                        <property name="name">ShrekHassleAtTheCastle</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="image">SherkHassleAtTheCastle</property>
+                        <property name="image">ShrekHassleAtTheCastle</property>
                         <property name="image_position">bottom</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="onButtonPressed" swapped="no"/>
@@ -232,12 +232,12 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkButton" id="SherkSuperSlamButton">
-                        <property name="name">SherkSuperSlam</property>
+                      <object class="GtkButton" id="ShrekSuperSlamButton">
+                        <property name="name">ShrekSuperSlam</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="image">SherkSuperSlam</property>
+                        <property name="image">ShrekSuperSlam</property>
                         <property name="image_position">bottom</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="onButtonPressed" swapped="no"/>
@@ -248,12 +248,12 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkButton" id="Sherk2Button">
-                        <property name="name">Sherk2</property>
+                      <object class="GtkButton" id="Shrek2Button">
+                        <property name="name">Shrek2</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="image">Sherk2</property>
+                        <property name="image">Shrek2</property>
                         <property name="image_position">bottom</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="onButtonPressed" swapped="no"/>
@@ -265,11 +265,11 @@
                     </child>
                     <child>
                       <object class="GtkButton" id="SherkTheThirdButton">
-                        <property name="name">SherkTheThird</property>
+                        <property name="name">ShrekTheThird</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="image">SherkTheThird</property>
+                        <property name="image">ShrekTheThird</property>
                         <property name="image_position">bottom</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="onButtonPressed" swapped="no"/>
@@ -281,11 +281,11 @@
                     </child>
                     <child>
                       <object class="GtkButton" id="SherkSwampKartSpeedwayButton">
-                        <property name="name">SherkSwampKartSpeedway</property>
+                        <property name="name">ShrekSwampKartSpeedway</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="image">SherkSwampKartSpeedway</property>
+                        <property name="image">ShrekSwampKartSpeedway</property>
                         <property name="image_position">bottom</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="onButtonPressed" swapped="no"/>
