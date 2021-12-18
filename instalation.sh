@@ -47,7 +47,7 @@ cp configFiles/antimicrox_settings.ini /home/$SUDO_USER/.config/antimicrox/
 
 chown -R $SUDO_USER:$SUDO_USER /home/$SUDO_USER/.config/
 
-cp /home/$SUDO_USER/GameBoy-pi/ConsoleGUI/ home/$SUDO_USER/
+cp -r /home/$SUDO_USER/GameBoy-pi/ConsoleGUI/ home/$SUDO_USER/
 
 cd /home/$SUDO_USER
 
