@@ -1,3 +1,5 @@
 
-xinit -g 1360x768 /home/pi/Gameboy-pi/ConsoleGUI/userInterface.py
+cd /home/pi/ConsoleGUI
+
+xinit -g 1920x1080 /home/pi/ConsoleGUI/userInterface.py
 

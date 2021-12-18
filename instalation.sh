@@ -11,7 +11,7 @@ apt install libsdl2-dev libgtkmm-3.0-dev libportaudio2 python3-gi libopenjp2-7 g
 pip3 install pillow
 pip3 install screeninfo
 
-cp configFiles/gamepadmouse.gamecontroller.amgp /home/$SUDO_USER/gamepadmouse.gamecontroller.amgp
+cp configFiles/gamepadcontroller.gamecontroller.amgp /home/$SUDO_USER/gamepadcontroller.gamecontroller.amgp
 
 mkdir -p /opt/vba-m
 
@@ -47,6 +47,8 @@ cp configFiles/antimicrox_settings.ini /home/$SUDO_USER/.config/antimicrox/
 
 chown -R $SUDO_USER:$SUDO_USER /home/$SUDO_USER/.config/
 
+cp /home/$SUDO_USER/GameBoy-pi/ConsoleGUI/ home/$SUDO_USER/
+
 cd /home/$SUDO_USER
 
 git clone https://github.com/visualboyadvance-m/visualboyadvance-m.git
@@ -57,7 +59,7 @@ mkdir build && cd build
 cmake .. -G Ninja
 ninja
 
-mv ./visualboyadvance-m /home/$SUDO_USER/vba-m
+mv ./visualboyadvance-m /home/$SUDO_USER/ConsoleGUI/vba-m
 rm -rf /home/$SUDO_USER/visualboyadvance-m/
 
 cd /home/$SUDO_USER
@@ -75,7 +77,7 @@ sed -i "s/PrivateMounts=yes/PrivateMounts=no/" /lib/systemd/system/systemd-udevd
 
 echo "/home/pi/start.sh 2>/dev/null" >> /home/$SUDO_USER/.bashrc
 
-sed -i "s/console=tty1/console=serial0/" /boot/cmdline.txt
+sed -i "s/$/ console=tty3 quiet splash loglevel=3 logo.nologo vt.global_cursor_default=0 plymouth.enable=0/" cmdline.txt
 
 systemctl enable splash
 
